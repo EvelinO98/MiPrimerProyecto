@@ -1,0 +1,43 @@
+SISTEMAS OPERATIVOS:
+
+Los tipos de sistema operativo varían según el hardware y la función de cada dispositivo. Existen algunos para ordenadores y otros para dispositivos móviles.
+Según el usuario pueden ser: multiusuario, sistema operativo que permite que varios usuarios ejecuten simultáneamente sus programas; o monousuario, sistema operativo que solamente permite ejecutar los programas de un usuario a la vez.
+Según la gestión de tareas pueden ser: monotarea, sistema operativo que solamente permite ejecutar un proceso a la vez; o multitarea, sistema operativo que puede ejecutar varios procesos al mismo tiempo.
+Según la gestión de recursos pueden ser: centralizado, sistema operativo que solo permite utilizar los recursos de un solo ordenador; o distribuido, sistema operativo que permite ejecutar los procesos de más de un ordenador al mismo tiempo.
+
+EJEMPLOS DE SISTEMAS OPERATIVOS:
+Microsoft Windows. De los más populares que existen, inicialmente se trató de un conjunto de distribuciones o entornos operativos gráficos, cuyo rol era brindar a otros sistemas operativos más antiguos como el MS-DOS una representación visual de soporte y de otras herramientas de software. Se publicó por primera vez en 1985 y desde entonces se ha actualizado a nuevas versiones.
+MS-DOS. Se trata del Sistema Operativo de Disco de MicroSoft (siglas en inglés de MicroSoft Disk Operating System), uno de los sistemas operativos más comunes para computadoras personales IBM durante la década de 1980 y mediados de los 90. Contaba con una serie de comandos internos y externos mostrados en una pantalla oscura de manera secuencial.
+Kernel: es la parte central del sistema operativo y se encarga de toda la comunicación segura entre el software y el hardware del ordenador. 
+En las consolas de comandos es el acceso de kernel. No tiene parte visual.
+UNIX: Dennis Ritchie es el creador del lenguaje de programacion C.
+nace de la mano de AT&T.
+
+SISTEMMAS DE OPERATIVOS: 
+Windows: MSDOS basado en basic 
+Mac OS: Unix basado en C
+GNU/Linux?: Linux basado en C
+Android: linux basado en java 
+
+
+GNU:  RICHARD STANDMAN  es el creador de este software significa que es el software es libre.
+Es la parte de aplicaciones y de software.
+Es la fusion de GNU y Linux. 
+ 
+
+SISTEMAS DE ARCHIVOS:
+
+Windows: FAT, FAT 32 Y NTS. Es como vienen los formatos de disco duro o memorias o dispositivos de almacenamiento. Cada uno representan la cantidad de informacion.
+Mac OS: HFS Plus o HFS+ esta hecho esta linux ambos basados en c quiere decir que tiene compatibilidad de sistemas de archivos.
+Android: EXT 4 que usa linux por defecto y puede leer MACOS debido al Kernel.
+Linux EXT2, EXT3, EXT4. 
+
+Extenciones que se ejecutan: 
+Windows: EXE 
+Mac OS: PKG Y DMG
+Android: APK
+Linux: TAR, RPM9(opensuse) Y DEB
+
+Fuente: https://concepto.de/sistema-operativo/#ixzz6sgGZBoxu
+https://concepto.de/sistema-operativo/#:~:text=Seg%C3%BAn%20la%20gesti%C3%B3n%20de%20recursos,un%20ordenador%20al%20mismo%20tiempo.
+https://blog.desdelinux.net/permisos-linux-administradores-desarrolladores-sistemas/

@@ -1,0 +1,51 @@
+QUE SON LOS PERMISOS?
+Los permisos de archivo y carpetas es una peculiaridad llamada <<Atributo>>.
+este atributo sirve para definir quien puede leerlo, escribirlos o ejecutarlos, que son tres cosas clave: 
+1. Permiso de lectura (read).
+Si tienes permiso de lectura de un archivo, puedes ver su contenido.
+2. Permiso de escritura (write)
+Si tienes permiso de escritura de un archivo, puedes modificar el archivo. Puedes agregar, sobrescribir o borrar su contenido.
+3. Permiso de ejecución (execute) 
+Permite ejecutar el archivo cuando este lo es y este se indica con la ''x'' de ''eXecute''
+Si vemos que un archivo tiene ''rwx'' quiere decir que se puede leer, escribir y ejecutar.
+
+Cuando los permisos se aplican a carpetas, estos se aplican a todos los archivos de dicha carpeta, por lo tanto:
+leer: se puede leer el contenido de toda la carpeta.
+Escribir: se pueden anadir archivos o borrarlos de la carpeta.
+Ejecutar: se puede ejecutar comandos dentro de cualquier contenido de la carpeta.
+
+QUE SON USUARIOS?
+Los usuarios son aquellas personas que van a interectuar con los ficheros y tambien existen tres tipos.
+1. User: Es el que lo ha creado (propietario)
+2. Group: Es un grupo de usuarios a los que se les puede asignar unos permisos concretos.
+Others: Son los usuarios que no tienen asignado un grupo ni son propietarios.
+
+Si queremos listar los archivos existentes en una carpeta solo tendremos que escribir el siguiente comando:
+ls
+
+Con esto solo obtenemos el nombre de los archivos o carpetas del lugar del path en el que nos encontramos.
+
+Para obtener mucho más detalle tendremos que escribir lo siguiente:
+ls -l
+
+Este comando ofrece la siguiente información (en orden de izquierda a derecha):
+
+Permisos
+Usuario propietario
+Grupo propietario del archivo
+Tamaño última fecha de modificación
+Nombre
+
+si queremos que solo el usuario propietario pueda leer y escribir en el archivo, el resultado sería:
+–  r w – – – – – – –
+
+Es decir, podremos otorgar permisos a los siguientes roles:
+
+Usuario propietario
+Grupo al que pertenece el propietario
+Resto de usuarios del equipo
+
+
+fuentes:
+https://www.emarketersocial.info/los-permisos-de-archivos-y-carpetas/
+https://www.redeszone.net/2017/01/08/controlar-los-permisos-carpetas-archivos-linux-forma-sencilla/
